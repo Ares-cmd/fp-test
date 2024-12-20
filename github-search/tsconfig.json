@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es5",                          // Set the JavaScript version
+      "lib": ["dom", "dom.iterable", "esnext"], // Type definitions for JavaScript environments
+      "allowJs": true,                          // Allow JavaScript files
+      "skipLibCheck": true,                     // Skip type checking of declaration files
+      "esModuleInterop": true,                  // Emit helper code for importing modules
+      "allowSyntheticDefaultImports": true,     // Allow default imports
+      "strict": false,                           // Enable strict type-checking options
+      "forceConsistentCasingInFileNames": true, // Ensure file name case consistency
+      "noFallthroughCasesInSwitch": true,       // Report fallthrough cases in switch statements
+      "module": "esnext",                       // Use ES module syntax
+      "moduleResolution": "node",               // Resolve modules using Node.js-style resolution
+      "resolveJsonModule": true,                // Enable importing JSON files
+      "isolatedModules": true,                  // Ensures each file can be compiled individually
+      "jsx": "react-jsx"                        // Use React JSX mode
+    },
+    "include": ["src"],                         // Include source files
+    "exclude": ["node_modules"]                 // Exclude node_modules
+  }
+  

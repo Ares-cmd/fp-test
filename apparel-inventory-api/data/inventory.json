@@ -1,0 +1,45 @@
+[
+  {
+    "code": "A001",
+    "size": "S",
+    "quantity": 10,
+    "price": 19.99
+  },
+  {
+    "code": "A001",
+    "size": "M",
+    "quantity": 15,
+    "price": 19.99
+  },
+  {
+    "code": "A001",
+    "size": "L",
+    "quantity": 8,
+    "price": 19.99
+  },
+  {
+    "code": "A002",
+    "size": "M",
+    "quantity": 12,
+    "price": 24.99
+  },
+  {
+    "code": "A002",
+    "size": "L",
+    "quantity": 10,
+    "price": 24.99
+  },
+  {
+    "code": "A003",
+    "size": "S",
+    "quantity": 5,
+    "price": 29.99
+  },
+  {
+    "code": "A003",
+    "size": "M",
+    "quantity": 7,
+    "price": 29.99
+  }
+]
+
