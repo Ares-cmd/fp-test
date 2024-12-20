@@ -34,21 +34,15 @@ export default function Home() {
   };
 
   return (
-    <div className="container max-w-2xl mx-auto p-4">
-      <NavBar />
-      
+    <div className="container max-w-lg mx-auto p-4">      
       <div className="space-y-6">
-        <div className="space-y-2">
+        <div className="space-y-2 text-center">
           <h1 className="text-2xl font-semibold tracking-tight">Search GitHub User</h1>
-          <p className="text-sm text-gray-500">
-            Enter a GitHub username to search for their profile
-          </p>
         </div>
 
         <div className="space-y-4">
           <div className="space-y-2">
-            <label htmlFor="search" className="block text-sm font-medium text-gray-700">Username</label>
-            <div className="flex space-x-2">
+            <div className="space-y-4">
               <input
                 id="search"
                 className="flex-1 min-w-0 block w-full px-3 py-2 rounded-md border border-gray-300 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
@@ -57,7 +51,7 @@ export default function Home() {
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
               <button 
-                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white text-center bg-blue-600 hover:bg-blue-700"
                 onClick={handleSearch} 
                 disabled={isLoading || !searchTerm}
               >

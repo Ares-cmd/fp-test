@@ -7,9 +7,7 @@ export default function History() {
   const { searchHistory, clearHistory } = useGitHub();
 
   return (
-    <div className="container max-w-2xl mx-auto p-4">
-      <NavBar />
-      
+    <div className="container max-w-lg mx-auto p-4">      
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-semibold tracking-tight">Your Search History</h1>
