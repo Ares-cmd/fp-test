@@ -45,13 +45,13 @@ export default function Home() {
             <div className="space-y-4">
               <input
                 id="search"
-                className="flex-1 min-w-0 block w-full px-3 py-2 rounded-md border border-gray-300 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                className="flex-1 min-w-0 block w-full px-3 py-2 rounded-md border border-gray-300 shadow-sm  sm:text-sm"
                 placeholder="Enter GitHub username"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
               <button 
-                className="w-full px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white text-center bg-blue-600 hover:bg-blue-700"
+                className="w-full px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white text-center bg-emerald-600 hover:bg-emerald-700"
                 onClick={handleSearch} 
                 disabled={isLoading || !searchTerm}
               >
